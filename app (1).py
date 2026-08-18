@@ -15,7 +15,7 @@ st.set_page_config(
 with open("knn_model (1)", "rb") as f:
     model = pickle.load(f)
 
-with open("scaler.pkl", "rb") as f:
+with open("scaler (1).pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # -------------------------------
