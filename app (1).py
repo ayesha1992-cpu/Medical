@@ -12,7 +12,7 @@ st.set_page_config(
 # -------------------------------
 # Load Model and Scaler
 # -------------------------------
-with open("knn_model.pkl", "rb") as f:
+with open("knn_model (1)", "rb") as f:
     model = pickle.load(f)
 
 with open("scaler.pkl", "rb") as f:
